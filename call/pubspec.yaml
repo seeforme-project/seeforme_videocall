@@ -1,0 +1,35 @@
+name: call
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_screenutil: ">=5.5.3+2 <5.6.1"
+  device_info_plus: any
+  shared_preferences: ^2.2.3
+  cached_network_image: ^3.3.0
+
+  zego_uikit: ^2.28.23
+  zego_uikit_prebuilt_call: ^4.17.9
+
+dependency_overrides:
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  import_sorter: ^4.6.0  # run 'flutter pub run import_sorter:main'
+
+flutter:
+  uses-material-design: true
